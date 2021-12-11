@@ -4,7 +4,7 @@
 .minecraft/crash-reports/*
 .minecraft/logs/*
 .minecraft/minemenu/*
-.minecraft/mods/*
+.minecraft/mods*/*
 .minecraft/resourcepacks/*
 .minecraft/saves/*
 .minecraft/Xaero*/*
