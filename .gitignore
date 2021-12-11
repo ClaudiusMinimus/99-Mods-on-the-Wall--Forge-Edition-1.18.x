@@ -1,0 +1,18 @@
+
+# Ignore these directories
+.minecraft/config/*
+.minecraft/crash-reports/*
+.minecraft/*
+.minecraft/*
+
+# Ignore these files
+99 mods 1.18.x Forge.code-workspace
+instance.cfg
+.minecraft/knownkeys.txt
+
+# Do not ignore these directories
+
+# Still ignore this directory
+#minecraft/config/betterdefaultbiomes/food
+
+# Do not ignore these files
