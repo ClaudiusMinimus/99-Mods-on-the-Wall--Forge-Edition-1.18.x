@@ -2,13 +2,23 @@
 # Ignore these directories
 .minecraft/config/*
 .minecraft/crash-reports/*
-.minecraft/*
-.minecraft/*
+.minecraft/logs/*
+.minecraft/minemenu/*
+.minecraft/mods/*
+.minecraft/resourcepacks/*
+.minecraft/saves/*
+.minecraft/Xaero*/*
+
 
 # Ignore these files
 99 mods 1.18.x Forge.code-workspace
 instance.cfg
+.minecraft/hs_err_pid7918.log
 .minecraft/knownkeys.txt
+.minecraft/realms_persistence.json
+.minecraft/options.txt
+.minecraft/usercache.json
+.minecraft/usernamecache.json
 
 # Do not ignore these directories
 
