@@ -21,8 +21,16 @@ instance.cfg
 .minecraft/usernamecache.json
 
 # Do not ignore these directories
+!.minecraft/config/defaultoptions
+!.minecraft/config/drippyloadingscreen
+!.minecraft/config/fancymenu
+!.minecraft/config/starterkit
+!.minecraft/config/waterstrainer
 
 # Still ignore this directory
 #minecraft/config/betterdefaultbiomes/food
 
 # Do not ignore these files
+!.minecraft/config/theoneprobe-client.toml
+!.minecraft/config/xaerominimap_entities.json
+!.minecraft/config/xaerominimap.txt
