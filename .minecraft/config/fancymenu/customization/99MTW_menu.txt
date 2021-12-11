@@ -1,0 +1,378 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/images/menu/background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-left
+  x = 75
+  action = movebutton
+  y = 75
+}
+
+customization {
+  identifier = %id=400322%
+  width = 104
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/buttons/multiplayerhover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/multiplayer.png
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttondescription
+  description = %playername%, please join us on the%n%official server, which is listed on the%n%Multiplayer page.%n%%n%If you would like to have your%n%server listed, please contact%n%us on our discord
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = top-left
+  x = 75
+  action = movebutton
+  y = 132
+}
+
+customization {
+  identifier = %id=604382%
+  width = 51
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/buttons/accessibilityhover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/accessibility.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttondescription
+  description = Accesibility
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = top-left
+  x = 75
+  action = movebutton
+  y = 104
+}
+
+customization {
+  identifier = %id=400382%
+  width = 51
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/buttons/optionshover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/options.png
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttondescription
+  description = Options
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = top-left
+  x = 128
+  action = movebutton
+  y = 161
+}
+
+customization {
+  identifier = %id=502382%
+  width = 51
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/buttons/quithover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/quit.png
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttondescription
+  description = Quit
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = top-left
+  x = 75
+  action = movebutton
+  y = 161
+}
+
+customization {
+  identifier = %id=376382%
+  width = 51
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/buttons/langugehover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/languge.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttondescription
+  description = Languages
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-left
+  x = 75
+  action = movebutton
+  y = 46
+}
+
+customization {
+  identifier = %id=400298%
+  width = 104
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/buttons/singleplayerhover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/singleplayer.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = 128
+  action = movebutton
+  y = 104
+}
+
+customization {
+  identifier = %id=400346%
+  width = 51
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/images/menu/buttons/modshover.png
+  backgroundnormal = config/fancymenu/images/menu/buttons/mods.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttondescription
+  description = Mods
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/menu/socials/discordhover.png
+  description = %playername%, please come join our discord%n%server. We have a great community and%n%look forward YOU being a part of it!
+  label = 
+  loopbackgroundanimations = true
+  x = -39
+  width = 14
+  actionid = cc3942c7-f554-44f5-8126-3124dbca0f0c1627936247603
+  action = addbutton
+  y = 15
+  backgroundnormal = config/fancymenu/images/menu/socials/discord.png
+  value = https://discord.gg/jXrx4Tu
+  height = 11
+}
+
+customization {
+  orientation = bottom-left
+  shadow = true
+  x = 5
+  action = addtext
+  actionid = 2c0b2d31-c5e2-4bff-8870-b212fc956d111617896866104
+  y = -13
+  scale = 1.0
+  alignment = left
+  value = 99 Mods on the Wall v.1.18-2.1.0
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/menu/buttons/server.png
+  description = Need a server to play with friends?%n%%n%Use code the 'minimus' for 25% Off%n%your 1st month, and enjoy playing%n%with your friends!
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 75
+  width = 104
+  actionid = 754c203a-f595-46dc-b05e-9d2378f1f3361627936247606
+  action = addbutton
+  y = 190
+  backgroundnormal = config/fancymenu/images/menu/buttons/serverhover.png
+  value = 
+  height = 24
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/menu/buttons/supporthover.png
+  description = If you need help with a bug, please%n%use this issue tracker.%n%%n%If you need help with anything else,%n%please use our discord. The invite%n%link is in the upper-right corner.
+  label = 
+  loopbackgroundanimations = true
+  x = 128
+  width = 51
+  actionid = 563192c7-fe90-4dbd-ad46-88aaeef214801627936247609
+  action = addbutton
+  y = 132
+  backgroundnormal = config/fancymenu/images/menu/buttons/support.png
+  value = https://github.com/ClaudiusMinimus/Ninety-Nine-Mods-on-the-Wall-1.16.4/issues
+  height = 24
+}
+
+customization {
+  orientation = top-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/menu/socials/curseforgehover.png
+  description = 99 Mods on the Wall on Curseforge
+  label = 
+  loopbackgroundanimations = true
+  x = -63
+  width = 18
+  actionid = 473211a1-3367-4a0f-834a-29969272d56e1627936247611
+  action = addbutton
+  y = 16
+  backgroundnormal = config/fancymenu/images/menu/socials/curseforge.png
+  value = https://www.curseforge.com/minecraft/modpacks/ninety-nine-mods-on-the-wall
+  height = 10
+}
+
+customization {
+  orientation = top-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/menu/socials/tumblrhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -19
+  width = 9
+  actionid = 258f91da-0562-446d-9f82-3c2a8acb34ca1627936247613
+  action = addbutton
+  y = 15
+  backgroundnormal = config/fancymenu/images/menu/socials/tumblr.png
+  value = https://cms-world.tumblr.com/
+  height = 11
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
