@@ -7,6 +7,7 @@
 .minecraft/mods*/*
 .minecraft/resourcepacks/*
 .minecraft/saves/*
+.minecraft/screenshots/*
 .minecraft/Xaero*/*
 
 
@@ -31,6 +32,7 @@ instance.cfg
 #minecraft/config/betterdefaultbiomes/food
 
 # Do not ignore these files
+!.minecraft/config/enhancedfarming-common.toml
 !.minecraft/config/theoneprobe-client.toml
 !.minecraft/config/xaerominimap_entities.json
 !.minecraft/config/xaerominimap.txt
