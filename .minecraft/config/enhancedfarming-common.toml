@@ -7,7 +7,7 @@
 	#Range: > 1
 	hotTime = 15
 	#When enabled the fruity leaves have to be right-clicked to be harvested [Default: false]
-	rightClickFruitHarvest = false
+	rightClickFruitHarvest = true
 	#The chance in which fruit drop from tree when "rightClickFruitHarvest" isn't enabled (1 in X chance) [Default: 20]
 	#Range: > 1
 	treeDropChance = 20
