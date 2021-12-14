@@ -1,5 +1,15 @@
 # Change Log
 
+## 99 Mods on the Wall 1.18.1-2.3.0
+
+Dec. 13, 2021
+
+- Mods Added:
+- Mods Updated:
+- Mods Removed:
+  - thutperms-1.18-4.0.0 (not needed on the client)
+- Other Changes:
+
 ## 99 Mods on the Wall 1.18-2.2.1 BETA
 
 Dec. 11, 2021
