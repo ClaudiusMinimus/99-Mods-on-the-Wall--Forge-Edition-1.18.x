@@ -10,6 +10,8 @@
 .minecraft/screenshots/*
 .minecraft/Xaero*/*
 natives/*
+server/crash-reports/*
+server/logs/*
 server/mods/*
 
 
