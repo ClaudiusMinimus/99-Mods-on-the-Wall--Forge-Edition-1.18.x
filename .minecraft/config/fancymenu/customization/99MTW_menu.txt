@@ -91,9 +91,14 @@ customization {
 }
 
 customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=400382%
   orientation = top-left
-  x = 75
+  x = 128
   action = movebutton
   y = 104
 }
@@ -231,7 +236,7 @@ customization {
 customization {
   identifier = %id=400346%
   orientation = top-left
-  x = 128
+  x = 75
   action = movebutton
   y = 104
 }
@@ -296,7 +301,7 @@ customization {
   y = -13
   scale = 1.0
   alignment = left
-  value = 99 Mods on the Wall v.1.18-2.2.1 BETA
+  value = 99 Mods on the Wall v.1.18-2.3.0 BETA
 }
 
 customization {
@@ -369,10 +374,5 @@ customization {
   backgroundnormal = config/fancymenu/images/menu/socials/tumblr.png
   value = https://cms-world.tumblr.com/
   height = 11
-}
-
-customization {
-  identifier = %id=376322%
-  action = hidebutton
 }
 
