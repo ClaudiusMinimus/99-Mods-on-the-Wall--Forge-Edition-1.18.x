@@ -51,7 +51,7 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttondescription
-  description = %playername%, please join us on the%n%official server, which is listed on the%n%Multiplayer page.%n%%n%If you would like to have your%n%server listed, please contact%n%us on our discord
+  description = Hi, %playername%,%n%The official server is now whitelisted.%n%To join, please visit our discord to apply.%n%%n%We look forward to seeing you in-game!
 }
 
 customization {
