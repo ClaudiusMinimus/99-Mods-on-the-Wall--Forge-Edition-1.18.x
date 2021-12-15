@@ -1,0 +1,19 @@
+{
+  "modId": "silentgear",
+  "group": {
+    "name": "Silent Gear",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "silentgear:fluffy_seeds"
+    },
+    {
+      "output": "silentgear:flax_seeds"
+    }
+  ]
+}
