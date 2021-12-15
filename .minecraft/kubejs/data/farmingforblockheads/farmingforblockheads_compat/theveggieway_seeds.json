@@ -1,0 +1,25 @@
+{
+  "modId": "veggie_way",
+  "group": {
+    "name": "The Veggie Way",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "veggie_way:quinoa_seeds"
+    },
+    {
+      "output": "veggie_way:soybean_seeds"
+    },
+    {
+      "output": "veggie_way:lentil_seeds"
+    },
+    {
+      "output": "veggie_way:corn_seeds"
+    }
+  ]
+}

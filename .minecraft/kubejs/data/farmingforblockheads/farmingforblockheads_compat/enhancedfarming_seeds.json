@@ -1,0 +1,43 @@
+{
+  "modId": "enhancedfarming",
+  "group": {
+    "name": "Enhanced Farming",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "enhancedfarming:aubergine_seeds"
+    },
+    {
+      "output": "enhancedfarming:corn_seeds"
+    },
+    {
+      "output": "enhancedfarming:cucumber_seeds"
+    },
+    {
+      "output": "enhancedfarming:garlic_seeds"
+    },
+    {
+      "output": "enhancedfarming:grape_seeds"
+    },
+    {
+      "output": "enhancedfarming:lettuce_seeds"
+    },
+    {
+      "output": "enhancedfarming:nether_flower_seeds"
+    },
+    {
+      "output": "enhancedfarming:onion_seeds"
+    },
+    {
+      "output": "enhancedfarming:pineapple_seeds"
+    },
+    {
+      "output": "enhancedfarming:tomato_seeds"
+    }
+  ]
+}
