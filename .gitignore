@@ -25,6 +25,7 @@ instance.cfg
 .minecraft/servers.dat*
 .minecraft/usercache.json
 .minecraft/usernamecache.json
+.minecraft/config/fancymenu/menu_identifiers.db
 
 # Do not ignore these directories
 !.minecraft/config/defaultoptions
