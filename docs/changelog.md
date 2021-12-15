@@ -1,6 +1,6 @@
 # Change Log
 
-## 99 Mods on the Wall 1.18.1-2.3.0
+## 99 Mods on the Wall 1.18.1-2.3.1
 
 Dec. 13, 2021
 
