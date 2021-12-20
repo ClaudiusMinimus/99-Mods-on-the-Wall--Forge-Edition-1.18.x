@@ -275,6 +275,11 @@ customization {
 }
 
 customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
   orientation = top-right
   restartbackgroundanimations = true
   buttonaction = openlink
