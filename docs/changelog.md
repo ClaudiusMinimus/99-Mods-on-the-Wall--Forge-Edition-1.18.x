@@ -1,15 +1,46 @@
 # Change Log
 
-## 99 Mods on the Wall 1.18.1-2.3.3
+## 99 Mods on the Wall 1.18.1-2.4.0
 
-Dec. 13, 2021
+Dec. 20, 2021
 
 - Mods Added:
+  - dpanvil-1.18.1-3.2.0
+  - DrawersTooltip-1.18-forge-4.0.0
+  - elementalcraft-1.18.1-4.1.4
+  - ImmersiveEngineering-1.18.1-7.0.0-142
+  - Patchouli-1.18.1-61
+  - solarenergy-1.18.1-0.4.0.3
+  - SoL-Carrot-1.18.1-1.12.0
+  - StorageDrawers-1.18.1-10.0.0
 - Mods Updated:
+  - appliedenergistics2-10.0.0-alpha.7
+  - bcc-1.1.7-build.16+mc1.18.1
+  - citadel-1.10.5-1.18
+  - Clumps-forge-1.18.1-8.0.3
+  - craftingtweaks-forge-1.18.1-14.0.1
+  - curios-forge-1.18.1-5.0.3.1
+  - EasySteel-Forge-1.18.1-1.5.7
+  - EnchantmentDescriptions-Forge-1.18.1-9.0.3
+  - flywheel-forge-1.18-0.4.2-rc
+  - Gobber2-Forge-1.18.1-2.6.8
+  - jei-1.18.1-9.1.1.48
+  - Kiwi-1.18-forge-5.2.2
+  - kubejs-forge-1801.4.0-build.249
+  - MouseTweaks-forge-mc1.18-2.19
+  - pipez-1.18.1-1.0.1
+  - repurposed_structures_forge-4.0.9+1.18.1
+  - silent-gear-1.18.1-2.8.1
+  - sophisticatedbackpacks-1.18.1-3.13.6.452
+  - supplementaries-1.18-1.0.7
+  - Xaeros_Minimap_21.22.6_Forge_1.18
+  - XaerosWorldMap_1.18.8_Forge_1.18
 - Mods Removed:
   - BuildingWands-2.3_mc1.18-forge (redundant functionality)
   - thutperms-1.18-4.0.0 (not needed on the client)
 - Other Changes:
+  - Updated Forge to 39.6
+  - Refactored some recipes from json to javascript
 
 ## 99 Mods on the Wall 1.18-2.2.1 BETA
 
