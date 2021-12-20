@@ -7,6 +7,7 @@ Dec. 13, 2021
 - Mods Added:
 - Mods Updated:
 - Mods Removed:
+  - BuildingWands-2.3_mc1.18-forge (redundant functionality)
   - thutperms-1.18-4.0.0 (not needed on the client)
 - Other Changes:
 
