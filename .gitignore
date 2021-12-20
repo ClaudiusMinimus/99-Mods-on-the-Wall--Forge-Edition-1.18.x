@@ -1,7 +1,6 @@
 
 # Ignore these directories
 .minecraft/config/*
-.minecraft/config/alexsmobs/*
 .minecraft/crash-reports/*
 .minecraft/logs/*
 .minecraft/minemenu/*
@@ -30,7 +29,6 @@ instance.cfg
 build/*server*.zip
 
 # Do not ignore these directories
-!.minecraft/config/alexsmobs
 !.minecraft/config/defaultoptions
 !.minecraft/config/drippyloadingscreen
 !.minecraft/config/fancymenu
