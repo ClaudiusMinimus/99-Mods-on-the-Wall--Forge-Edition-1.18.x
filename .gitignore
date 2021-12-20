@@ -1,6 +1,7 @@
 
 # Ignore these directories
 .minecraft/config/*
+.minecraft/config/alexsmobs/*
 .minecraft/crash-reports/*
 .minecraft/logs/*
 .minecraft/minemenu/*
@@ -29,6 +30,7 @@ instance.cfg
 build/*server*.zip
 
 # Do not ignore these directories
+!.minecraft/config/alexsmobs
 !.minecraft/config/defaultoptions
 !.minecraft/config/drippyloadingscreen
 !.minecraft/config/fancymenu
@@ -41,8 +43,12 @@ build/*server*.zip
 
 # Do not ignore these files
 !.minecraft/config/bcc-common.toml
+!.minecraft/config/clienttweaks-common.toml
+!.minecraft/config/defaultoptions-common.toml
 !.minecraft/config/enhancedfarming-common.toml
+!.minecraft/config/farmingforblockheads-common.toml
 !.minecraft/config/theoneprobe-client.toml
+!.minecraft/config/vtweaks-common.toml
 !.minecraft/config/xaerominimap_entities.json
 !.minecraft/config/xaerominimap.txt
 !server/config/bcc-common.toml
