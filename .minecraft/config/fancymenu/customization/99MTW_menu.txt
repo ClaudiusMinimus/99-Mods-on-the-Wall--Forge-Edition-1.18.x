@@ -301,7 +301,7 @@ customization {
   y = -13
   scale = 1.0
   alignment = left
-  value = 99 Mods on the Wall v.1.18.1-2.3.3
+  value = 99 Mods on the Wall v.1.18.1-2.4.0
 }
 
 customization {
@@ -374,10 +374,5 @@ customization {
   backgroundnormal = config/fancymenu/images/menu/socials/tumblr.png
   value = https://cms-world.tumblr.com/
   height = 11
-}
-
-customization {
-  identifier = %id=376346%
-  action = hidebutton
 }
 
