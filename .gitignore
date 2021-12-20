@@ -42,6 +42,7 @@ build/*server*.zip
 #minecraft/config/betterdefaultbiomes/food
 
 # Do not ignore these files
+!.minecraft/config/alexsmobs.toml
 !.minecraft/config/bcc-common.toml
 !.minecraft/config/clienttweaks-common.toml
 !.minecraft/config/defaultoptions-common.toml
