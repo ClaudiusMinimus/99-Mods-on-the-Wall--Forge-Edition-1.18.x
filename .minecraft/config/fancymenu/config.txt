@@ -55,7 +55,7 @@ I:defaultguiscale = '-1';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '99 Mods on the Wall';
+S:customwindowtitle = '99 Mods on the Wall: Forge Edition';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 
@@ -63,7 +63,7 @@ B:customwindowicon = 'true';
 ##[layouteditor]
 
 I:gridsize = '10';
-B:editordeleteconfirmation = 'true';
+B:editordeleteconfirmation = 'false';
 B:showgrid = 'false';
 [If the warning when trying to move an vanilla button without an orientation should be displayed or not.]
 B:showvanillamovewarning = 'false';
