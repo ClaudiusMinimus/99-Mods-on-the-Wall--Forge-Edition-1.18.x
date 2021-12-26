@@ -2,44 +2,61 @@
 
 ## 99 Mods on the Wall 1.18.1-2.4.0
 
-Dec. 20, 2021
+Dec. 24, 2021
 
 - Mods Added:
+  - AEInfinityBooster-1.18.1-1.0.0+3
   - dpanvil-1.18.1-3.2.0
   - DrawersTooltip-1.18-forge-4.0.0
-  - elementalcraft-1.18.1-4.1.4
+  - elementalcraft-1.18.1-4.1.5
   - ImmersiveEngineering-1.18.1-7.0.0-142
   - Patchouli-1.18.1-61
+  - polymorph-forge-1.18.1-0.33
   - solarenergy-1.18.1-0.4.0.3
   - SoL-Carrot-1.18.1-1.12.0
-  - StorageDrawers-1.18.1-10.0.0
+  - StorageDrawers-1.18.1-10.0.1
 - Mods Updated:
-  - appliedenergistics2-10.0.0-alpha.7
-  - bcc-1.1.7-build.16+mc1.18.1
+  - alexsmobs-1.15.1
+  - appliedenergistics2-10.0.0-beta.1
+  - architectury-3.2.60
+  - BetterCompatibilityChecker-1.1.8-build.18+mc1.18.1
+  - castle_dungeons-3.1-1.18-forge
   - citadel-1.10.5-1.18
-  - Clumps-forge-1.18.1-8.0.3
+  - Clumps-forge-1.18.1-8.0.4
   - craftingtweaks-forge-1.18.1-14.0.1
-  - curios-forge-1.18.1-5.0.3.1
+  - createdeco-1.2.1-1.18
+  - curios-forge-1.18.1-5.0.4.0
   - EasySteel-Forge-1.18.1-1.5.7
-  - EnchantmentDescriptions-Forge-1.18.1-9.0.3
+  - EnchantmentDescriptions-Forge-1.18.1-9.0.4
   - flywheel-forge-1.18-0.4.2-rc
-  - Gobber2-Forge-1.18.1-2.6.8
+  - globalxp-1.18.1-1.9.1
+  - Gobber2-Forge-1.18.1-2.6.9
   - jei-1.18.1-9.1.1.48
-  - Kiwi-1.18-forge-5.2.2
+  - JustEnoughResources-1.18.1-0.13.1.138
+  - Kiwi-1.18-forge-5.2.3
   - kubejs-forge-1801.4.0-build.249
-  - MouseTweaks-forge-mc1.18-2.19
+  - lootr-1.18-0.0.11.34
+  - mahoutsukai-1.18.1-v1.33.7
+  - MouseTweaks-forge-mc1.18-2.21
+  - NaturesCompass-1.18.1-1.9.4-forge
   - pipez-1.18.1-1.0.1
   - repurposed_structures_forge-4.0.9+1.18.1
-  - silent-gear-1.18.1-2.8.1
+  - ResourcefulTools-Forge-1.18.1-1.4.4
+  - silent-gear-1.18.1-2.8.2
   - sophisticatedbackpacks-1.18.1-3.13.6.452
   - supplementaries-1.18-1.0.7
+  - swingthroughgrass-1.18.1-1.8.0
+  - theoneprobe-1.18-5.0.1
+  - TheVeggieWay-Forge-1.18.1-2.4.3
+  - thutessentials-1.18.1-4.3.0
+  - VTweaks-1.18-3.5.3
   - Xaeros_Minimap_21.22.6_Forge_1.18
-  - XaerosWorldMap_1.18.8_Forge_1.18
+  - XaerosWorldMap_1.18.9_Forge_1.18
 - Mods Removed:
   - BuildingWands-2.3_mc1.18-forge (redundant functionality)
   - thutperms-1.18-4.0.0 (not needed on the client)
 - Other Changes:
-  - Updated Forge to 39.6
+  - Updated Forge to 39.0.8
   - Refactored some recipes from json to javascript
 
 ## 99 Mods on the Wall 1.18-2.2.1 BETA
