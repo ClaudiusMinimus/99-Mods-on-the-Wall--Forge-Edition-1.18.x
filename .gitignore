@@ -2,6 +2,7 @@
 # Ignore these directories
 .minecraft/config/*
 .minecraft/crash-reports/*
+.minecraft/local/ftbchunks/data/*
 .minecraft/logs/*
 .minecraft/minemenu/*
 .minecraft/mods*/*
@@ -16,25 +17,27 @@ server/mods/*
 
 
 # Ignore these files
-99 mods 1.18.x Forge.code-workspace
-instance.cfg
+.minecraft/config/fancymenu/menu_identifiers.db
 .minecraft/hs_err_pid7918.log
 .minecraft/knownkeys.txt
-.minecraft/realms_persistence.json
 .minecraft/options.txt
+.minecraft/realms_persistence.json
 .minecraft/servers.dat*
 .minecraft/usercache.json
 .minecraft/usernamecache.json
-.minecraft/config/fancymenu/menu_identifiers.db
+99 mods 1.18.x Forge.code-workspace
 build/*server*.zip
+instance.cfg
 
 # Do not ignore these directories
 !.minecraft/config/defaultoptions
 !.minecraft/config/drippyloadingscreen
 !.minecraft/config/fancymenu
+!.minecraft/config/ftbquests
 !.minecraft/config/starterkit
 !.minecraft/config/waterstrainer
 !server/config/starterkit
+!server/config/ftbquests
 
 # Still ignore this directory
 #minecraft/config/betterdefaultbiomes/food
