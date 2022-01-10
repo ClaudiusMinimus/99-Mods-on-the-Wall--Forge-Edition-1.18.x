@@ -1,5 +1,81 @@
 # Change Log
 
+## 99 Mods on the Wall 1.18.1-2.5.0
+
+Jan. 10, 2022
+
+- Mods Added:
+  - ftb-chunks-forge-1801.3.3-build.110
+  - ftb-library-forge-1801.3.5-build.109
+  - ftb-quests-forge-1801.3.7-build.87
+  - ftb-ranks-forge-1801.1.6-build.22
+  - ftb-teams-forge-1801.2.4-build.46
+  - item-filters-forge-1801.2.6-build.16
+- Mods Updated:
+  - alexsmobs-1.15.1
+  - appliedenergistics2-10.0.0-beta.4
+  - architectury-3.4.9
+  - armorpointspp-forge-1.18.1-3.0.0-alpha6
+  - balm-2.4.0+0
+  - BetterCompatibilityChecker-1.1.10-build.21+mc1.18.1
+  - citadel-1.10.8-1.18
+  - Clumps-forge-1.18.1-8.0.4
+  - Controlling-forge-1.18.1-9.0.11
+  - corail_woodcutter-1.18-2.2.1
+  - craftingtweaks-forge-1.18.1-14.0.2
+  - create-mc1.18.1_v0.4c
+  - Cucumber-1.18.1-5.0.2
+  - curios-forge-1.18.1-5.0.5.1
+  - Cyclic-1.18.1-1.6.9
+  - DrawersTooltip-1.18.1-forge-4.1.0
+  - elementalcraft-1.18.1-4.1.7
+  - EnchantmentDescriptions-Forge-1.18.1-9.0.8
+  - Enhanced-Farming-1.18.1-1.2.5.1
+  - essentials-1.18.1-2.13.2
+  - extremesoundmuffler-3.20_forge-1.18.1
+  - fancymenu_forge_2.5.1_MC_1.18-1.18.1
+  - farmingforblockheads-forge-1.18.1-9.0.2
+  - flywheel-forge-1.18-0.5.1
+  - globalxp-1.18.1-1.9.1
+  - Gobber2-Forge-1.18.1-2.6.11
+  - ImmersiveEngineering-1.18.1-7.1.0-145
+  - InventoryProfilesNext-forge-1.18-1.2.3
+  - ironfurnaces-1.18.1-3.1.3
+  - jei-1.18.1-9.2.1.69
+  - JustEnoughResources-1.18.1-0.13.1.141
+  - Kiwi-1.18-forge-5.2.3
+  - konkrete_forge_1.3.3_MC_1.18-1.18.1
+  - kubejs-forge-1801.4.1-build.271
+  - LargeFluidTank-18.3.0
+  - mahoutsukai-1.18.1-v1.33.7
+  - MouseTweaks-forge-mc1.18-2.21
+  - NaturesCompass-1.18.1-1.9.4-forge
+  - Patchouli-1.18.1-64
+  - PickleTweaks-1.18.1-6.0.1
+  - potionsmaster-0.5.1-1.18.1-39.0.0
+  - repurposed_structures_forge-4.1.0+1.18.1
+  - ResourcefulTools-Forge-1.18.1-1.4.4
+  - rhino-forge-1800.1.7-build.92
+  - silent-gear-1.18.1-2.8.4
+  - SimpleStorageNetwork-1.18.1-1.5.2
+  - Soaring-Structures-2-1.18.1-2.1
+  - sophisticatedbackpacks-1.18.1-3.15.1.505
+  - StorageDrawers-1.18.1-10.1.0
+  - supermartijn642corelib-1.0.16-mc1.18
+  - supplementaries-1.18.1-1.1.7
+  - swingthroughgrass-1.18.1-1.8.0
+  - theoneprobe-1.18-5.0.2
+  - TheVeggieWay-Forge-1.18.1-2.4.3
+  - thutessentials-1.18.1-4.4.1
+  - trashcans-1.0.12-mc1.18
+  - VTweaks-1.18-3.5.4
+  - Xaeros_Minimap_21.23.1_Forge_1.18
+  - XaerosWorldMap_1.19.1_Forge_1.18
+- Mods Removed:
+- Other Changes:
+  - Updated Forge to 36.0.17
+  - Imported and began updating quests from 99 Mods for 1.16.5
+
 ## 99 Mods on the Wall 1.18.1-2.4.0
 
 Dec. 24, 2021
