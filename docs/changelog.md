@@ -1,16 +1,22 @@
 # Change Log
 
-## 99 Mods on the Wall 1.18.1-2.5.0
+## 99 Mods on the Wall 1.18.1-2.5.1
 
 Jan. 10, 2022
 
 - Mods Added:
+  - enderchests-1.18-1.9.0
+  - endertanks-1.18-1.11.0
+  - filteredchests-1.18.1-1.0.2
+  - forbidden_arcanus-1.18.1-2.0.0
   - ftb-chunks-forge-1801.3.3-build.110
   - ftb-library-forge-1801.3.5-build.109
   - ftb-quests-forge-1801.3.7-build.87
   - ftb-ranks-forge-1801.1.6-build.22
   - ftb-teams-forge-1801.2.4-build.46
   - item-filters-forge-1801.2.6-build.16
+  - shetiphiancore-1.18-3.10.0
+  - valhelsia_core-1.18.1-0.3.0
 - Mods Updated:
   - alexsmobs-1.15.1
   - appliedenergistics2-10.0.0-beta.4
