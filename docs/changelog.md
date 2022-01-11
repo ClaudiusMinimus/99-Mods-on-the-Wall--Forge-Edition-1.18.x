@@ -1,5 +1,22 @@
 # Change Log
 
+## 99 Mods on the Wall 1.18.1-2.6.0
+
+Jan. 11, 2022
+
+- Mods Added:
+  - createaddition-1.18.1-20220111a
+- Mods Updated:
+  - EnchantmentDescriptions-Forge-1.18.1-9.0.9
+  - extremesoundmuffler-3.21_forge-1.18.1
+  - ftb-chunks-forge-1801.3.3-build.113
+  - geckolib-1.18-forge-3.0.4
+  - mahoutsukai-1.18.1-v1.34.0
+  - shetiphiancore-1.18-3.10.1
+  - torchmaster-18.0.3-beta
+- Mods Removed:
+- Other Changes:
+
 ## 99 Mods on the Wall 1.18.1-2.5.3
 
 Jan. 10, 2022
