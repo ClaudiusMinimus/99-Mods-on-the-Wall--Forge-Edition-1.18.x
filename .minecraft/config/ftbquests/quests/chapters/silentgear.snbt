@@ -318,20 +318,12 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "000000000000063B"
-					type: "item"
-					item: "silentgear:blueprint_paper"
-					count: 32
-				}
-				{
-					id: "000000000000063C"
-					type: "item"
-					item: "xreliquary:glowing_bread"
-					count: 8
-				}
-			]
+			rewards: [{
+				id: "000000000000063B"
+				type: "item"
+				item: "silentgear:blueprint_paper"
+				count: 32
+			}]
 		}
 		{
 			title: "Bow"
