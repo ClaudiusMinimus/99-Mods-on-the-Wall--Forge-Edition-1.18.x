@@ -1189,7 +1189,7 @@
 			rewards: [{
 				id: "0000000000000501"
 				type: "item"
-				item: "simplefarming:lasagna"
+				item: "enhancedfarming:spaghetti"
 				count: 8
 			}]
 		}
@@ -1937,7 +1937,7 @@
 			rewards: [{
 				id: "54C1FF152705ADAF"
 				type: "item"
-				item: "mcwfurnitures:spruce_dresser"
+				item: "buildersaddition:cabinet_oak"
 			}]
 		}
 		{
