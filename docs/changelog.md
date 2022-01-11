@@ -75,6 +75,7 @@ Jan. 10, 2022
 - Other Changes:
   - Updated Forge to 36.0.17
   - Imported and began updating quests from 99 Mods for 1.16.5
+  - Crystal Chests (including trapped) from Iron Chests recipes removed due to crash. This is a long standing issue and will likely remove Iron Chests if not fixed.
 
 ## 99 Mods on the Wall 1.18.1-2.4.0
 
