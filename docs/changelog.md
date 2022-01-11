@@ -79,7 +79,7 @@ Jan. 10, 2022
   - XaerosWorldMap_1.19.1_Forge_1.18
 - Mods Removed:
 - Other Changes:
-  - Updated Forge to 36.0.17
+  - Updated Forge to 36.0.18
   - Imported and began updating quests from 99 Mods for 1.16.5
   - Crystal Chests (including trapped) from Iron Chests recipes removed due to crash. This is a long standing issue and will likely remove Iron Chests if not fixed.
 
