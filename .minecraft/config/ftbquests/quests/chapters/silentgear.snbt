@@ -1925,8 +1925,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -4.5d
+			x: 0.0d
+			y: -3.0d
 			dependencies: ["000000000000007B"]
 			id: "0000000000000642"
 			tasks: [{
@@ -2475,15 +2475,7 @@
 			rewards: [{
 				id: "75ACF91C17E9B8F9"
 				type: "item"
-				item: {
-					id: "usefulbackpacks:backpack_large"
-					Count: 1b
-					tag: {
-						display: {
-							color: 16351261
-						}
-					}
-				}
+				item: "sophisticatedbackpacks:gold_backpack"
 			}]
 		}
 		{
@@ -3072,6 +3064,11 @@
 					item: "easy_steel:tungsten_carbide_ingot"
 				}
 			]
+			rewards: [{
+				id: "04BA9C56CB56E5BD"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Any Easy Steel Paxel"
@@ -3149,12 +3146,12 @@
 				id: "5B768CC0A0C9C284"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "tokenenchanter:enchanted_token"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
+						Enchantments: [{
 							lvl: 1s
-							id: "minecraft:efficiency"
+							id: "minecraft:unbreaking"
 						}]
 					}
 				}
@@ -3236,10 +3233,10 @@
 				id: "7A02CCD69F528E6A"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "tokenenchanter:enchanted_token"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
+						Enchantments: [{
 							lvl: 1s
 							id: "minecraft:efficiency"
 						}]
@@ -3323,12 +3320,12 @@
 				id: "4719449EF6F9E62B"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "tokenenchanter:enchanted_token"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
+						Enchantments: [{
 							lvl: 1s
-							id: "minecraft:efficiency"
+							id: "minecraft:fortune"
 						}]
 					}
 				}
@@ -3408,12 +3405,12 @@
 				id: "08D5D06AD7A1FE2D"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "tokenenchanter:enchanted_token"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
+						Enchantments: [{
 							lvl: 1s
-							id: "minecraft:protection"
+							id: "minecraft:respiration"
 						}]
 					}
 				}
@@ -3493,10 +3490,10 @@
 				id: "41CBA5682337C6EE"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "tokenenchanter:enchanted_token"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
+						Enchantments: [{
 							lvl: 1s
 							id: "minecraft:protection"
 						}]
@@ -3578,12 +3575,12 @@
 				id: "49F50F1A821C4A26"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "tokenenchanter:enchanted_token"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
+						Enchantments: [{
 							lvl: 1s
-							id: "minecraft:protection"
+							id: "minecraft:unbreaking"
 						}]
 					}
 				}
@@ -3663,10 +3660,10 @@
 				id: "24392AA46AB13576"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "tokenenchanter:enchanted_token"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
+						Enchantments: [{
 							lvl: 1s
 							id: "minecraft:protection"
 						}]
@@ -3691,6 +3688,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1F524FFCEB001768"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -3755,7 +3757,7 @@
 			rewards: [{
 				id: "7B92B872036A45C0"
 				type: "item"
-				item: "simplefarming:orange_sapling"
+				item: "silentgear:netherwood_sapling"
 			}]
 		}
 		{
@@ -3819,10 +3821,10 @@
 				id: "246CEFE4249F8799"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "tokenenchanter:enchanted_token"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
+						Enchantments: [{
 							lvl: 1s
 							id: "cyclic:multishot"
 						}]
@@ -3867,12 +3869,12 @@
 				id: "2A7898D4AC45BF1C"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "tokenenchanter:enchanted_token"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
+						Enchantments: [{
 							lvl: 1s
-							id: "apotheosis:crescendo"
+							id: "minecraft:quick_charge"
 						}]
 					}
 				}
