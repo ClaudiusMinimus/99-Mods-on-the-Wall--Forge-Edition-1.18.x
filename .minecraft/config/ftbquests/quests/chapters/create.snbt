@@ -1258,7 +1258,7 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 9.0d
 			y: 15.0d
 			dependencies: ["00000000000008D1"]
 			id: "4220BEA4D49DF6AD"
@@ -1274,7 +1274,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 8.0d
 			y: 16.0d
 			dependencies: ["00000000000008D1"]
 			id: "36834A54205E2393"
@@ -1469,6 +1469,115 @@
 				id: "3DECC8D1E6E34E90"
 				type: "xp"
 				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: 15.0d
+			dependencies: ["00000000000008D1"]
+			id: "27CAD0115FC88EEC"
+			tasks: [{
+				id: "46D8DB75516460D6"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "4ABD1E21C06CCDB9"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 4
+			}]
+		}
+		{
+			x: 3.5d
+			y: 13.5d
+			description: ["It has been found it may take more than one alternator to power your AE2 system."]
+			dependencies: ["00000000000008D1"]
+			id: "0019CC2A5562716C"
+			tasks: [{
+				id: "7B322ED43E06F9A3"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "298BA184F41F367D"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 11.5d
+			dependencies: ["00000000000008D1"]
+			id: "7F788138F237FA90"
+			tasks: [{
+				id: "7D798F4A543B5D52"
+				type: "item"
+				item: "createaddition:tesla_coil"
+			}]
+			rewards: [{
+				id: "4263877781B5F0BC"
+				type: "item"
+				item: {
+					id: "createaddition:diamond_grit_sandpaper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 19.0d
+			dependencies: ["7707AFBFD1BCDA58"]
+			id: "1F60DC874FEDB181"
+			tasks: [{
+				id: "2197C27D803F0BF1"
+				type: "item"
+				item: "createaddition:crude_burner"
+			}]
+			rewards: [{
+				id: "5A708C2BEBC83177"
+				type: "item"
+				item: "createaddition:seed_oil_bucket"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 17.5d
+			dependencies: ["00000000000008E5"]
+			id: "7707AFBFD1BCDA58"
+			tasks: [{
+				id: "6FB3C82975E26D2B"
+				type: "item"
+				item: "createaddition:furnace_burner"
+			}]
+			rewards: [{
+				id: "2A1BF2D05334437E"
+				type: "item"
+				item: "silentgear:netherwood_charcoal"
+				count: 16
+			}]
+		}
+		{
+			x: -7.0d
+			y: 6.0d
+			dependencies: ["00000000000007A1"]
+			id: "66B6D1B260D2E01E"
+			tasks: [{
+				id: "20A8A8123DBB4332"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "57CBFB532BB878BB"
+				type: "item"
+				item: "sophisticatedbackpacks:feeding_upgrade"
 			}]
 		}
 	]
