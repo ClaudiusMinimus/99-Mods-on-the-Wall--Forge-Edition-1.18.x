@@ -306,7 +306,7 @@ customization {
   y = -13
   scale = 1.0
   alignment = left
-  value = 99 Mods on the Wall v.1.18.1-2.5.2
+  value = 99 Mods on the Wall v.1.18.1-2.5.3
 }
 
 customization {
