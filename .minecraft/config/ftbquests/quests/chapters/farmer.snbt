@@ -24,7 +24,7 @@
 			rewards: [{
 				id: "00000000000005E8"
 				type: "item"
-				item: "xreliquary:fertile_lily_pad"
+				item: "gobber2:gobber2_ring_farmer"
 			}]
 		}
 		{

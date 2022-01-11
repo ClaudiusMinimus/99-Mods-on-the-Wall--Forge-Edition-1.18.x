@@ -370,30 +370,6 @@
 					}
 				}
 				{
-					id: "0000000000000639"
-					type: "item"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							RepairCost: 0
-							items: [
-								{
-									id: "silentgear:bowstring_blueprint"
-									Count: 1
-								}
-								{
-									id: "silentgear:bowstring_template"
-									Count: 1
-								}
-							]
-							display: {
-								Name: "{\"text\":\"Bowstring Blueprint/Template\"}"
-							}
-						}
-					}
-				}
-				{
 					id: "000000000000063A"
 					type: "item"
 					item: {
@@ -536,24 +512,24 @@
 			]
 			rewards: [
 				{
-					id: "00000000000000A6"
+					id: "00000000000000A7"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 64
+				}
+				{
+					id: "0FF579555E45B932"
 					type: "item"
 					item: {
-						id: "silentgems:enchantment_token"
+						id: "tokenenchanter:enchanted_token"
 						Count: 1b
 						tag: {
-							TokenEnchantments: [{
+							Enchantments: [{
 								lvl: 1s
 								id: "minecraft:power"
 							}]
 						}
 					}
-				}
-				{
-					id: "00000000000000A7"
-					type: "item"
-					item: "minecraft:arrow"
-					count: 64
 				}
 			]
 		}
@@ -714,11 +690,18 @@
 				}
 			]
 			rewards: [{
-				id: "00000000000000A9"
+				id: "087EB61324341914"
 				type: "item"
-				auto: "disabled"
-				item: "simplefarming:pizza"
-				count: 8
+				item: {
+					id: "tokenenchanter:enchanted_token"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -871,9 +854,18 @@
 				}
 			]
 			rewards: [{
-				id: "00000000000000AA"
+				id: "14A5341B9555A426"
 				type: "item"
-				item: "dankstorage:1_to_2"
+				item: {
+					id: "tokenenchanter:enchanted_token"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -1027,7 +1019,7 @@
 			rewards: [{
 				id: "00000000000000A0"
 				type: "item"
-				item: "simplefarming:egg_sandwich"
+				item: "enhancedfarming:chicken_sandwich"
 				count: 8
 			}]
 		}
@@ -1176,62 +1168,21 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "00000000000000A2"
-					type: "item"
-					item: {
-						id: "silentgems:enchantment_token"
-						Count: 1b
-						tag: {
-							TokenEnchantments: [{
-								lvl: 1
-								id: "minecraft:efficiency"
-							}]
-						}
-					}
-					count: 5
-				}
-				{
-					id: "00000000000000A3"
-					type: "item"
-					item: {
-						id: "silentgems:enchantment_token"
-						Count: 1b
-						tag: {
-							TokenEnchantments: [{
-								lvl: 1
-								id: "minecraft:mending"
-							}]
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: -3.0d
-			description: ["The Token Enchanter can replace Enchantment books, though it does come with a price of creating Chaos."]
-			dependencies: ["000000000000007B"]
-			id: "00000000000000AB"
-			tasks: [{
-				id: "00000000000000AC"
+			rewards: [{
+				id: "2853E12E3C0FFFD1"
 				type: "item"
-				item: "silentgems:token_enchanter"
+				item: {
+					id: "tokenenchanter:enchanted_token"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+				count: 2
 			}]
-			rewards: [
-				{
-					id: "00000000000000AD"
-					type: "item"
-					item: "silentgems:blank_token"
-					count: 12
-				}
-				{
-					id: "0000000000000312"
-					type: "item"
-					item: "xreliquary:emperor_chalice"
-				}
-			]
 		}
 		{
 			x: -3.0d
@@ -1357,11 +1308,11 @@
 				id: "0000000000000513"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "tokenenchanter:enchanted_token"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
-							lvl: 1
+						Enchantments: [{
+							lvl: 1s
 							id: "minecraft:protection"
 						}]
 					}
@@ -1896,9 +1847,18 @@
 				}
 			]
 			rewards: [{
-				id: "0000000000000637"
+				id: "3EAC4B6646C5E783"
 				type: "item"
-				item: "pamhc2foodcore:cuttingboarditem"
+				item: {
+					id: "tokenenchanter:enchanted_token"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -1989,117 +1949,6 @@
 			}]
 		}
 		{
-			title: "Control the Chaos"
-			x: 1.5d
-			y: -3.0d
-			description: ["Make a pedestal and place the reward on top to start controlling the chaos."]
-			dependencies: ["00000000000000AB"]
-			id: "0000000000000648"
-			tasks: [{
-				id: "0000000000000649"
-				type: "item"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						RepairCost: 0
-						items: [
-							{
-								id: "silentgems:stone_pedestal"
-								Count: 1
-							}
-							{
-								id: "silentgems:granite_pedestal"
-								Count: 1
-							}
-							{
-								id: "silentgems:diorite_pedestal"
-								Count: 1
-							}
-							{
-								id: "silentgems:andesite_pedestal"
-								Count: 1
-							}
-							{
-								id: "silentgems:obsidian_pedestal"
-								Count: 1
-							}
-						]
-						display: {
-							Name: "{\"text\":\"Pedestal\"}"
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "000000000000064A"
-				type: "item"
-				item: {
-					id: "silentgems:fragile_chaos_orb"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			title: "Gilded Bowstring"
-			x: 1.5d
-			y: -1.5d
-			description: ["Craft a Bowstring using Gilded String"]
-			dependencies: ["0000000000000086"]
-			id: "000000000000066E"
-			tasks: [{
-				id: "000000000000066F"
-				type: "item"
-				item: {
-					id: "silentgear:bowstring"
-					Count: 1b
-					tag: {
-						CraftedCount: 1
-						Materials: [
-							{
-								Item: {
-									id: "silentgems:gilded_string"
-									Count: 1b
-								}
-								ID: "silentgems:gilded_string"
-							}
-							{
-								Item: {
-									id: "silentgems:gilded_string"
-									Count: 1b
-								}
-								ID: "silentgems:gilded_string"
-							}
-							{
-								Item: {
-									id: "silentgems:gilded_string"
-									Count: 1b
-								}
-								ID: "silentgems:gilded_string"
-							}
-						]
-					}
-				}
-			}]
-			rewards: [{
-				id: "0000000000000670"
-				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "minecraft:punch"
-						}]
-					}
-				}
-			}]
-		}
-		{
 			x: -7.5d
 			y: -3.0d
 			shape: "diamond"
@@ -2120,29 +1969,8 @@
 		}
 		{
 			x: -7.5d
-			y: -4.5d
-			description: [
-				"Found some Gobber ore? Sure you can smelt it down, but what about growing your own supply of this rare ore?"
-				""
-				"Craft some seeds and plant them to get Gobber Globettes (and more seeds)!"
-			]
-			dependencies: ["000000000000069E"]
-			id: "00000000000006A0"
-			tasks: [{
-				id: "00000000000006A1"
-				type: "item"
-				item: "gobber2:gobber2_seed"
-			}]
-			rewards: [{
-				id: "00000000000006D9"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: -7.5d
 			y: -6.0d
-			dependencies: ["00000000000006A0"]
+			dependencies: ["000000000000069E"]
 			id: "00000000000006A2"
 			tasks: [{
 				id: "00000000000006A3"
@@ -2207,18 +2035,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "00000000000006AD"
-					type: "item"
-					item: "gobber2:block_healer"
+			rewards: [{
+				id: "00000000000006AE"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
 				}
-				{
-					id: "00000000000006AE"
-					type: "item"
-					item: "gobber2:gobber2_armor_repair"
-				}
-			]
+			}]
 		}
 		{
 			x: -7.5d
@@ -2328,24 +2153,8 @@
 		}
 		{
 			x: -12.0d
-			y: -4.5d
-			dependencies: ["00000000000006AF"]
-			id: "00000000000006B3"
-			tasks: [{
-				id: "00000000000006B4"
-				type: "item"
-				item: "gobber2:gobber2_seed_nether"
-			}]
-			rewards: [{
-				id: "00000000000006DA"
-				type: "xp"
-				xp: 150
-			}]
-		}
-		{
-			x: -12.0d
 			y: -6.0d
-			dependencies: ["00000000000006B3"]
+			dependencies: ["00000000000006AF"]
 			id: "00000000000006B5"
 			tasks: [{
 				id: "00000000000006B6"
@@ -2418,7 +2227,7 @@
 			rewards: [{
 				id: "00000000000006D3"
 				type: "item"
-				item: "gobber2:block_protector"
+				item: "cyclic:anvil"
 			}]
 		}
 		{
@@ -2523,8 +2332,7 @@
 			rewards: [{
 				id: "000000000000080F"
 				type: "item"
-				item: "apotheosis:heart_seashelf"
-				count: 4
+				item: "ironfurnaces:upgrade_obsidian2"
 			}]
 		}
 		{
@@ -2547,12 +2355,12 @@
 				id: "0000000000000728"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "tokenenchanter:enchanted_token"
 					Count: 1b
 					tag: {
-						TokenEnchantments: [{
+						Enchantments: [{
 							lvl: 1s
-							id: "apotheosis:true_infinity"
+							id: "minecraft:infinity"
 						}]
 					}
 				}
@@ -2577,16 +2385,7 @@
 			rewards: [{
 				id: "0000000000000732"
 				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "apotheosis:berserk"
-						}]
-					}
-				}
+				item: "cyclic:collector"
 			}]
 		}
 		{
@@ -2659,14 +2458,9 @@
 				id: "0000000000000726"
 				type: "item"
 				item: {
-					id: "silentgems:enchantment_token"
+					id: "forbidden_arcanus:eternal_stella"
 					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "silentgems:gravity"
-						}]
-					}
+					tag: { }
 				}
 			}]
 		}
@@ -2703,7 +2497,7 @@
 		{
 			x: -16.5d
 			y: -6.0d
-			dependencies: ["00000000000006DE"]
+			dependencies: ["00000000000006B1"]
 			id: "00000000000006DC"
 			tasks: [{
 				id: "00000000000006DD"
@@ -2713,32 +2507,7 @@
 			rewards: [{
 				id: "0000000000000811"
 				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "apotheosis:knowledge"
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: -16.5d
-			y: -4.5d
-			dependencies: ["00000000000006B1"]
-			id: "00000000000006DE"
-			tasks: [{
-				id: "00000000000006DF"
-				type: "item"
-				item: "gobber2:gobber2_seed_end"
-			}]
-			rewards: [{
-				id: "0000000000000738"
-				type: "item"
-				item: "minecraft:turtle_egg"
+				item: "gobber2:gobber2_ingot_end"
 			}]
 		}
 		{
@@ -2795,7 +2564,7 @@
 			rewards: [{
 				id: "00000000000006FA"
 				type: "item"
-				item: "gobber2:block_defender"
+				item: "gobber2:dragon_star"
 			}]
 		}
 		{
@@ -2919,8 +2688,7 @@
 			rewards: [{
 				id: "000000000000073B"
 				type: "item"
-				item: "apotheosis:hellshelf"
-				count: 5
+				item: "cyclic:heart"
 			}]
 		}
 		{
@@ -2942,7 +2710,14 @@
 			rewards: [{
 				id: "000000000000073C"
 				type: "item"
-				item: "enderstorage:ender_tank"
+				item: {
+					id: "enderchests:ender_chest"
+					Count: 1b
+					tag: {
+						owner: "all"
+						code: "000"
+					}
+				}
 			}]
 		}
 		{
@@ -3030,28 +2805,15 @@
 				type: "item"
 				item: "gobber2:gobber2_ring_miner"
 			}]
-			rewards: [
-				{
-					id: "000000000000072C"
-					type: "item"
-					item: "silentgems:ruby_teleporter"
+			rewards: [{
+				id: "000000000000072C"
+				type: "item"
+				item: {
+					id: "ae2:portable_item_cell_64k"
+					Count: 1b
+					tag: { }
 				}
-				{
-					id: "000000000000072D"
-					type: "item"
-					item: {
-						id: "silentgems:ruby_return_home_charm"
-						Count: 1b
-						tag: {
-							posX: 9446
-							posY: 177
-							dim: "minecraft:overworld"
-							posZ: 55878
-							IsReady: 0b
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: -8.5d
@@ -3066,7 +2828,7 @@
 			rewards: [{
 				id: "0000000000000812"
 				type: "item"
-				item: "silentgems:transmutation_altar"
+				item: "supplementaries:cage"
 			}]
 		}
 		{
@@ -3124,7 +2886,7 @@
 			rewards: [{
 				id: "0000000000000722"
 				type: "item"
-				item: "metalbarrels:diamond_barrel"
+				item: "cyclic:peace_candle"
 			}]
 		}
 		{
@@ -3212,7 +2974,13 @@
 			rewards: [{
 				id: "0000000000000734"
 				type: "item"
-				item: "enderstorage:ender_tank"
+				item: {
+					id: "pickletweaks:netherite_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -3244,16 +3012,8 @@
 			rewards: [{
 				id: "0000000000000735"
 				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "minecraft:silk_touch"
-						}]
-					}
-				}
+				item: "solarenergy:ultimate_solar_generator"
+				count: 2
 			}]
 		}
 		{
@@ -3269,143 +3029,7 @@
 			rewards: [{
 				id: "0000000000000736"
 				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "apotheosis:capturing"
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: -1.5d
-			y: -6.0d
-			description: ["To set up the Supercharger, check out the book 99 Mods on the Wall."]
-			dependencies: ["0000000000000642"]
-			id: "3E783F5CA2912D15"
-			tasks: [{
-				id: "540264F0A9169846"
-				type: "item"
-				item: "silentgems:supercharger"
-			}]
-			rewards: [{
-				id: "7BC82A710926383A"
-				type: "item"
-				item: "silentgems:sapphire_block"
-				count: 2
-			}]
-		}
-		{
-			x: 0.0d
-			y: -6.0d
-			description: [
-				"You need 4 x Chaos Iron blocks to make a level 1 Supercharger."
-				""
-				"You also need 4 x Silent's Gems gem blocks of any type."
-				""
-				"To set up the level 1 Supercharger, check out the book 99 Mods on the Wall."
-			]
-			dependencies: ["3E783F5CA2912D15"]
-			id: "48988C21BB89EAC1"
-			tasks: [{
-				id: "52821C858EA23A18"
-				type: "item"
-				item: "silentgems:chaos_iron_block"
-				count: 4L
-			}]
-			rewards: [
-				{
-					id: "26EE6B1E322276AB"
-					type: "item"
-					item: "silentgems:charging_agent"
-					count: 4
-				}
-				{
-					id: "70D852BA6C9B022E"
-					type: "item"
-					item: "silentgems:sapphire_block"
-					count: 2
-				}
-			]
-		}
-		{
-			x: 1.5d
-			y: -6.0d
-			description: [
-				"You need 4 x Enriched Choas Crystal blocks, plus the blocks from level 1 for the level 2 Supercharger."
-				""
-				"To set up the level 2 Supercharger, check out the book 99 Mods on the Wall."
-			]
-			dependencies: ["48988C21BB89EAC1"]
-			id: "2BF3A75965440671"
-			tasks: [{
-				id: "1D1F030710B307DE"
-				type: "item"
-				item: "silentgems:enriched_chaos_crystal_block"
-				count: 4L
-			}]
-			rewards: [{
-				id: "49C3D0F51C877717"
-				type: "item"
-				item: "silentgems:super_charging_agent"
-				count: 4
-			}]
-		}
-		{
-			x: 3.0d
-			y: -6.0d
-			description: [
-				"You need 8 x Ender Crystal blocks, plus the blocks from level 2  for the level 3 Supercharger."
-				""
-				"To set up the level 3 Supercharger, check out the book 99 Mods on the Wall."
-			]
-			dependencies: ["2BF3A75965440671"]
-			id: "300D7FD78B8F7DE5"
-			tasks: [{
-				id: "7986ED23286D3978"
-				type: "item"
-				item: "silentgems:ender_crystal_block"
-				count: 8L
-			}]
-			rewards: [{
-				id: "607316218899F77B"
-				type: "item"
-				item: "silentgems:ultra_charging_agent"
-				count: 4
-			}]
-		}
-		{
-			x: 0.0d
-			y: -4.5d
-			dependencies: ["00000000000000AB"]
-			id: "59B44F1F04783190"
-			tasks: [{
-				id: "6407E55FF8FFF59D"
-				type: "item"
-				item: {
-					id: "silentgems:sapphire_teleporter"
-					Count: 2b
-				}
-				count: 2L
-			}]
-			rewards: [{
-				id: "1C55F6937CE33D66"
-				type: "item"
-				item: {
-					id: "silentgems:teleporter_linker"
-					Count: 1b
-					tag: {
-						posX: 155
-						posY: 4
-						dim: "minecraft:overworld"
-						posZ: 49
-						Linked: 0b
-					}
-				}
+				item: "immersiveengineering:floodlight"
 			}]
 		}
 		{

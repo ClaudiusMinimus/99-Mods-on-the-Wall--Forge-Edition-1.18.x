@@ -479,6 +479,7 @@
 			dependencies: [
 				"5AF39FF6AB1C6098"
 				"6F94CFF9E4013396"
+				"191C12DC30B4C446"
 			]
 			id: "03F55170BAB80CD2"
 			tasks: [{
@@ -538,6 +539,29 @@
 			}]
 			rewards: [{
 				id: "59D3F3644923777E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			description: [
+				"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address."
+				""
+				"tinyurl.com/ftbchunk"
+				""
+				"Sorry, links do not work in quests."
+			]
+			dependencies: ["3E046FB9DDB11119"]
+			id: "191C12DC30B4C446"
+			tasks: [{
+				id: "5D841206AFCFEAFC"
+				type: "checkmark"
+				title: "Chunk Claims"
+			}]
+			rewards: [{
+				id: "761F35D32CADC32E"
 				type: "xp"
 				xp: 100
 			}]

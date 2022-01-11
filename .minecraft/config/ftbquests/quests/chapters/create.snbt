@@ -4,7 +4,7 @@
 	order_index: 1
 	filename: "create"
 	title: "Create"
-	icon: { id: "create:large_cogwheel", Count: 2b }
+	icon: "create:large_cogwheel"
 	subtitle: ["Build amazing things with Create!"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -798,7 +798,7 @@
 					tag: {
 						Enchantments: [{
 							lvl: 1s
-							id: "cyclic:life_leech"
+							id: "minecraft:silk_touch"
 						}]
 					}
 				}
@@ -1225,7 +1225,17 @@
 			rewards: [{
 				id: "1759854E92C6840A"
 				type: "item"
-				item: "aeinfinitybooster:infinity_card"
+				item: {
+					id: "tokenenchanter:enchanted_token"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 1s
+							id: "cyclic:life_leech"
+						}]
+					}
+				}
+				count: 2
 			}]
 		}
 		{

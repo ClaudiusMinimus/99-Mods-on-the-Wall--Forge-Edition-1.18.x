@@ -418,6 +418,11 @@
 				type: "item"
 				item: "veggie_way:super_petals"
 			}]
+			rewards: [{
+				id: "32ECCAD03D345812"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Eat all of your vegtables"

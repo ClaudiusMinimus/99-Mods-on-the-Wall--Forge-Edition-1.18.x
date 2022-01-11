@@ -502,16 +502,7 @@
 				{
 					id: "000000000000047A"
 					type: "item"
-					item: {
-						id: "quark:ancient_tome"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s
-								id: "minecraft:sweeping"
-							}]
-						}
-					}
+					item: "storagedrawers:quantify_key"
 				}
 			]
 		}

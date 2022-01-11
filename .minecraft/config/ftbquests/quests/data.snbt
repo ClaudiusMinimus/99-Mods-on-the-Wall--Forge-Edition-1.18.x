@@ -6,6 +6,13 @@
 	default_autoclaim_rewards: "disabled"
 	default_quest_shape: ""
 	default_quest_disable_jei: false
+	emergency_items: [{
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "patchouli:99mtw"
+		}
+	}]
 	emergency_items_cooldown: 300
 	drop_loot_crates: false
 	loot_crate_no_drop: {
