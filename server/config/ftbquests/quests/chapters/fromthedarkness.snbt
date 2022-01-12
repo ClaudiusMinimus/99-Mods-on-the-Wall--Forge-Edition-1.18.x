@@ -445,16 +445,16 @@
 			x: 5.5d
 			y: -6.0d
 			description: [
-				"JourneyMap is a client mod for Forge which maps your Minecraft world in real-time as you explore. You can view the map in a web browser or in-game as a Minimap or full-screen."
+				"Xareo's map mods for Forge maps your Minecraft world in real-time as you explore. You can view the map in-game as a Minimap or full-screen."
 				""
-				"JourneyMap provides a comprehensive Options Manager to let you safely configure dozens of preferences and options. You should never need to manually edit configuration files."
+				"Xareo's maps provide a comprehensive in-game options manager to let you safely configure dozens of preferences and options."
 			]
 			dependencies: ["3E046FB9DDB11119"]
 			id: "6F94CFF9E4013396"
 			tasks: [{
 				id: "6CC071658A47F899"
 				type: "checkmark"
-				title: "Journey Map"
+				title: "Xareo's Mini \\& World Map"
 			}]
 			rewards: [{
 				id: "7694CC56CD10814B"
