@@ -16,6 +16,7 @@ Jan. 11, 2022
   - torchmaster-18.0.3-beta
 - Mods Removed:
 - Other Changes:
+  - Also includes changes from version 1.18.1-2.5.3
 
 ## 99 Mods on the Wall 1.18.1-2.5.3
 
