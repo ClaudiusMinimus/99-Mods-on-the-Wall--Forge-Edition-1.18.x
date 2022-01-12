@@ -17,6 +17,7 @@ Jan. 11, 2022
 - Mods Removed:
 - Other Changes:
   - Also includes changes from version 1.18.1-2.5.3
+  - Lots of bug fixes!
 
 ## 99 Mods on the Wall 1.18.1-2.5.3
 
